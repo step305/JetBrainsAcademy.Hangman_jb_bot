@@ -2,8 +2,10 @@ from telebot.async_telebot import AsyncTeleBot
 import asyncio
 import hangman
 
+TOKEN = ''
+
 # hangman_jb_bot
-bot = AsyncTeleBot('5555940265:AAEmwnqA6OJHwfkOcYb6wdkZ6hWQVMtpc7w')
+bot = AsyncTeleBot(TOKEN)
 
 GREET_TEXT = 'H A N G M A N'
 
